@@ -1,0 +1,1179 @@
+:root {
+    --mian-color: #161616;
+    --main-color2: #242424;
+    --text-gary: #b8b8b8;
+    --text-color: #FFFFFF;
+    --btn-howTo: #3c3c3c;
+    --black-overlay: #161616df;
+    --black-overlay2: rgba(22, 22, 22, 0.697);
+
+}
+
+
+
+
+
+
+
+/* desktop */
+@media screen and (max-width:1200px) {
+
+    #table-cover {
+        width: 80%;
+    }
+
+    .table1>img:nth-of-type(3) {
+        left: 15px;
+        width: 250px;
+        height: 350px;
+    }
+
+    #section-8>img:nth-of-type(1) {
+        bottom: 150px;
+        left: 250px;
+        height: 250px;
+    }
+
+
+    /* دستور پخت 1 */
+
+    .levels-text {
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+/* tablet landscape */
+@media screen and (max-width:992px) {
+
+
+    #section-1 {
+        height: 480px;
+    }
+
+    #sec1-text>h2 {
+        font-size: 30px;
+        z-index: 3;
+    }
+
+    #sec1-text>h1 {
+        font-size: 150px;
+    }
+
+    #sec1-text {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+
+    #section-1>img:nth-of-type(1) {
+        width: 320px;
+        top: 0px;
+    }
+
+    #section-1>img:nth-of-type(2) {
+        width: 140px;
+        position: absolute;
+        left: 0;
+        top: 20px;
+    }
+
+    #section-1>img:nth-of-type(3) {
+        width: 400px;
+    }
+
+    #section-1>img:nth-of-type(4) {
+        width: 250px;
+    }
+
+
+    #section-2 {
+        height: 550px;
+    }
+
+    .table1>img:nth-of-type(1) {
+        width: 400px;
+    }
+
+    #table-cover {
+        height: 80%;
+        border-radius: 20px;
+        box-shadow: 0 0 30px black;
+        overflow: hidden;
+    }
+
+    .table2>img:nth-of-type(1) {
+        position: absolute;
+        right: 0;
+        top: 60px;
+        width: 200px;
+        height: 300px;
+    }
+
+    .table2>img:nth-of-type(2) {
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        left: 45%;
+    }
+
+    .table2>img:nth-of-type(4) {
+        position: absolute;
+        right: 0;
+        top: 30px;
+        width: 200px;
+        height: 200px;
+        z-index: -1;
+    }
+
+
+    .table3>img:nth-of-type(1) {
+        position: absolute;
+        left: 0%;
+        top: 0;
+        transform: scale(0.85);
+    }
+
+    .table3>img:nth-of-type(4) {
+        display: none;
+    }
+
+    .table4>img:nth-of-type(1) {
+        transform: scale(1.1);
+        width: 350px;
+        height: 350px;
+    }
+
+    .table4>img:nth-of-type(2) {
+        width: 300px;
+        height: 300px;
+    }
+
+    .table5>img:nth-of-type(1) {
+        position: absolute;
+        right: 20%;
+        transform: scale(0.9);
+    }
+
+    #icon-wrapper {
+        gap: 20px;
+    }
+
+    .recepie-title {
+        font-size: 40px;
+    }
+
+
+    /* دستور پخت 1 */
+
+    #section-11>p {
+        width: 80%;
+    }
+
+    .levels-title {
+        font-size: 45px;
+    }
+
+
+
+}
+
+
+
+
+/* tablet portrat */
+@media screen and (max-width:768px) {
+
+    #top-menu>ul>li>a {
+        font-size: 13px;
+    }
+
+    hr {
+        width: 70%;
+        margin: 10px;
+        border-radius: 50%;
+    }
+
+
+    #section-1 {
+        height: 450px;
+    }
+
+    #sec1-text>h2 {
+        font-size: 20px;
+    }
+
+    #sec1-text>h1 {
+        font-size: 120px;
+        margin: 0;
+        margin-top: 40px;
+        z-index: 15;
+    }
+
+    #section-1>img:nth-of-type(1) {
+        width: 280px;
+    }
+
+    #section-1>img:nth-of-type(2) {
+        width: 100px;
+        top: 20px;
+    }
+
+    #section-1>img:nth-of-type(4) {
+        width: 200px;
+    }
+
+    #section-1>img:nth-of-type(3) {
+        right: -100px;
+    }
+
+
+
+
+
+    .table1>img:nth-of-type(2) {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 20px;
+    }
+
+    .table1>img:nth-of-type(3) {
+        left: 20px;
+        bottom: -20px;
+        width: 200px;
+        height: 300px;
+        transform: rotate(-45deg);
+    }
+
+
+
+    .table2>img:nth-of-type(2) {
+        width: 240px;
+        height: 240px;
+        top: 160px;
+        left: 40%;
+    }
+
+    .table2>img:nth-of-type(3) {
+        width: 300px;
+        height: 300px;
+    }
+
+    .table2>img:nth-of-type(1) {
+        top: 10px;
+        width: 170px;
+        height: 250px;
+    }
+
+    .table2>img:nth-of-type(4) {
+        position: absolute;
+        right: 0;
+        top: -10px;
+        width: 170px;
+        height: 170px;
+        z-index: -1;
+    }
+
+
+    .table3>img:nth-of-type(1) {
+        position: absolute;
+        left: -50px;
+        top: 0;
+        transform: scale(0.75);
+    }
+
+    .table3>img:nth-of-type(2) {
+        position: absolute;
+        right: 6%;
+        top: 50px;
+        width: 180px;
+        height: 250px;
+    }
+
+    .table3>img:nth-of-type(3) {
+        position: absolute;
+        right: 6%;
+        top: 30px;
+        width: 170px;
+        height: 170px;
+        z-index: -1;
+        transform: rotate(25deg);
+    }
+
+
+
+    .table4>img:nth-of-type(4) {
+        display: none;
+    }
+
+    .table4>img:nth-of-type(3) {
+        width: 180px;
+        height: 220px;
+        left: 50px;
+        top: 65%;
+        transform: rotate(65deg);
+    }
+
+
+    .table5>img:nth-of-type(1) {
+        height: 370px;
+        width: 370px;
+        top: 20px;
+    }
+
+    .table5>img:nth-of-type(2) {
+        width: 130px;
+        height: 130px;
+    }
+
+    .table5>img:nth-of-type(5) {
+        width: 150px;
+        height: 150px;
+        left: 3.5%;
+    }
+
+    .table5>img:nth-of-type(4) {
+        width: 170px;
+        height: 250px;
+        left: 3%;
+    }
+
+
+
+
+
+
+    #section-3>.container {
+        z-index: 1;
+    }
+
+    #section-4>.container {
+        z-index: 1;
+    }
+
+    .recepie>p {
+        font-size: 17px;
+    }
+
+    .howto {
+        font-size: 17px;
+    }
+
+    .textBox-left {
+        width: 70%;
+    }
+
+
+
+
+
+    #section-5>img {
+        width: 720px;
+        height: 520px;
+        bottom: 0px;
+    }
+
+    .textBox-top>.recepie {
+        height: 400px;
+    }
+
+
+    #section-6>.container {
+        z-index: 1;
+    }
+
+    #section-7>.container {
+        z-index: 1;
+    }
+
+    #section-9>.container {
+        z-index: 1;
+    }
+
+
+
+    #section-8>img:nth-of-type(1) {
+        left: 100px;
+    }
+
+
+
+    .right-culounm {
+        width: 80%;
+    }
+
+    #section-10>.overlay-black>.container {
+        display: flex;
+        justify-content: center
+    }
+
+
+
+
+
+
+
+
+
+    /* دستور پخت 1 */
+
+    #section-11>img {
+        width: 650px;
+        height: 650px;
+        position: absolute;
+        top: -325px;
+        animation: food 10s infinite;
+    }
+
+    #section-11>h1 {
+        font-size: 75px;
+    }
+
+    #section-11>p {
+        font-size: 16px;
+    }
+
+
+    .title {
+        font-size: 55px;
+    }
+
+    #ingredient>h2 {
+        font-size: 25px;
+    }
+
+    #needs-right>h3,
+    #needs-left>h3,
+    #needs-center>h3 {
+        font-size: 18px;
+    }
+
+    .levels-text {
+        font-size: 17px;
+        width: 100%;
+    }
+
+
+
+
+
+    #section-14>.container>img {
+        width: 75%;
+    }
+
+    #section-15>.container>img {
+        width: 75%;
+    }
+
+    #section-16>.container>img {
+        width: 75%;
+    }
+
+    #section-17>.container>img {
+        width: 75%;
+    }
+
+    #section-18>.container>img {
+        width: 75%;
+    }
+
+
+
+
+    .end-title {
+        font-size: 50px;
+    }
+
+    #section-19 {
+        height: 150px;
+    }
+
+
+
+
+
+
+    /* دستورپخت 2 */
+
+    #section-21>.container>img {
+        width: 75%;
+    }
+
+    #section-22>.container>img {
+        width: 75%;
+    }
+
+    #section-23>.container>img {
+        width: 75%;
+    }
+
+    #section-24>.container>img {
+        width: 75%;
+    }
+
+
+
+
+    /* دستور پخت 3 */
+
+    #section-26>.container>img {
+        width: 75%;
+    }
+
+    #section-27>.container>img {
+        width: 75%;
+    }
+
+    #section-28>.container>img {
+        width: 75%;
+    }
+
+
+
+
+    /* دستور پخت 4 */
+
+    #section-30>.container>img {
+        width: 75%;
+    }
+
+    #section-31>.container>img {
+        width: 75%;
+    }
+
+    #section-32>.container>img {
+        width: 75%;
+    }
+
+    #section-33>.container>img {
+        width: 75%;
+    }
+
+    #section-34>.container>img {
+        width: 75%;
+    }
+
+
+
+
+
+
+    /* دستور پخت 5 */
+
+
+    #section-36>.container>img {
+        width: 75%;
+    }
+
+    #section-37>.container>img {
+        width: 75%;
+    }
+
+    #section-38>.container>img {
+        width: 75%;
+    }
+
+    #section-39>.container>img {
+        width: 75%;
+    }
+
+    #section-40>.container>img {
+        width: 75%;
+    }
+
+
+
+    /* دستورپخت 6 */
+
+    #section-42>.container>img {
+        width: 75%;
+    }
+
+    #section-43>.container>img {
+        width: 75%;
+    }
+
+    #section-44>.container>img {
+        width: 75%;
+    }
+
+    #section-45>.container>img {
+        width: 75%;
+    }
+
+    #section-46>.container>img {
+        width: 75%;
+    }
+
+
+
+    /* دستورپخت 7 */
+
+    #section-48>.container>img {
+        width: 75%;
+    }
+
+    #section-49>.container>img {
+        width: 75%;
+    }
+
+    #section-50>.container>img {
+        width: 75%;
+    }
+
+
+
+
+}
+
+
+
+
+/* mobile */
+@media screen and (max-width:576px) {
+
+    .container{
+        width: 90%;
+    }
+    #sec1-text>h1 {
+        font-size: 78px;
+        z-index: 2;
+    }
+
+    #sec1-text>h2 {
+        font-size: 20px;
+        color: #d6d6d6;
+        background-color:var(--mian-color) ;
+        padding: 10px;
+        border-radius: 17px;
+    }
+
+    #top-menu>img {
+        width:25%;
+        margin: 10px;
+    }
+
+    
+
+    #top-menu>ul {
+        /* border: 1px solid white; */
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        padding: 15px;
+        list-style: none;
+        width: 80%;
+    }
+    
+    #top-menu>ul>li {
+        display: flex;
+    }
+    
+    #top-menu>ul>li>a {
+        text-decoration: none;
+        color: var(--text-color);
+        font-size: 12px;
+        transition: all 0.3s;
+    }
+
+
+
+
+
+    #section-1>img:nth-of-type(1) {
+        width: 200px;
+    }
+
+    #section-1>img:nth-of-type(3) {
+        width: 222px;
+        right: -57px;
+    }
+
+    #section-1>img:nth-of-type(4) {
+        width: 128px;
+        right: 2%;
+        top: 47%;
+    }
+
+    #section-1>img:nth-of-type(2) {
+        width: 80px;
+    }
+
+    #section-1 {
+        height: 450px;
+    }
+
+
+
+
+    #section-2 {
+        display: none;
+    }
+
+
+
+    #section-3 {
+        height: 650px;
+    }
+
+
+    #section-3>h2 {
+        font-size: 25px;
+
+    }
+
+    .recepie-title {
+        font-size: 27px;
+    }
+
+    .recepie{
+        width: 100%;
+    }
+
+    .recepie>p {
+        font-size: 16px;
+        padding: 0px;
+    }
+
+    .textBox-right {
+        width: 97%;
+    }
+
+    .textBox-left {
+        width: 97%;
+    }
+
+    .textBox-top>.recepie {
+        height: 400px;
+        width: 97%;
+    }
+
+
+
+
+    #section-3>img:nth-of-type(1) {
+        width: 350px;
+    }
+
+    #section-3>img:nth-of-type(3) {
+        width: 400px;
+    }
+
+    #section-3>img:nth-of-type(2) {
+        left: 70px;
+        top: 40%;
+        width: 200px;
+    }
+
+
+
+
+    #section-4>img:nth-of-type(3) {
+        width: 370px;
+        height: 370px;
+        top: 70px;
+    }
+
+    #section-4>img:nth-of-type(1) {
+        width: 350px;
+        height: 350px;
+        top: 20px;
+    }
+
+    #section-4>img:nth-of-type(2) {
+        right: 85px;
+        width: 300px;
+        height: 400px;
+    }
+
+
+    
+
+
+
+    #section-5 {
+        height: 700px;
+    }
+
+    #section-5>img {
+        width: 452px;
+        height: 266px;
+        bottom: 96px;
+    }
+
+
+
+    #section-6>img:nth-of-type(1) {
+        width: 450px;
+    }
+
+    #section-6>img:nth-of-type(2) {
+        width: 450px;
+        height: 450px;
+    }
+
+    #section-6>img:nth-of-type(3) {
+        display: none;
+    }
+
+
+
+    #section-7>img:nth-of-type(3) {
+        width: 400px;
+        height: 400px;
+    }
+
+    #section-7>img:nth-of-type(1) {
+        display: none;
+    }
+
+    #section-7>img:nth-of-type(2) {
+        right: 90px;
+        width: 300px;
+        height: 400px;
+        transform: rotate(90deg);
+        top: -100px;
+    }
+
+
+    #section-8>img:nth-of-type(2) {
+        width: 400px;
+        height: 250px;
+        bottom: 160px;
+    }
+
+    #section-8>img:nth-of-type(1) {
+        display: none;
+    }
+
+
+    #section-9 {
+        height: 600px;
+    }
+
+    #section-9>img:nth-of-type(3) {
+        width: 400px;
+        height: 400px;
+    }
+
+    #section-9>img:nth-of-type(2) {
+        width: 200px;
+        height: 150px;
+        top: 300px;
+    }
+
+
+
+    #section-10 {
+        height: 200px;
+    }
+
+    .right-culounm {
+        width: 90%;
+        display: flex;
+        align-items: center;
+    }
+
+    .right-culounm>img {
+        width: 95px;
+        height: 123px;
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    .chef-text>h3 {
+        font-size: 18px;
+        margin-top: 35px;
+    }
+
+    .chef-text>h4 {
+        font-size: 11px;
+        line-height: 21px;
+    }
+
+    #icon-wrapper>i {
+        font-size: 20px;
+    }
+
+
+    #icon-wrapper {
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+    /* دستور پخت 1 */
+
+    #section-11 {
+        height: 550px;
+    }
+
+    #section-11>img {
+        width: 400px;
+        height: 400px;
+        top: -200px;
+    }
+
+    #section-11>h1 {
+        margin-top: 35px;
+        font-size: 50px;
+    }
+
+    #section-11>p {
+        margin-top: 250px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #section-12{
+        height: 700px;
+    }
+
+
+    .title {
+        font-size: 35px;
+    }
+
+    #ingredient>h2 {
+        font-size: 20px;
+    }
+
+    #needs-right>h3,
+    #needs-left>h3,
+    #needs-center>h3 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+
+    #needs-right {
+        width: 30%;
+        flex-basis: 46%;
+    }
+
+    #needs-center{
+        flex-basis: 40%;
+    }
+
+    #needs-left{
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    #needs{
+        flex-wrap: wrap;
+    }
+        
+
+
+    .end-title {
+        font-size: 20px;
+    }
+
+    #section-19 {
+        height: 100px;
+    }
+
+
+    .levels-title {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .footer-text1{
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .footer-text2 {
+        font-size: 10px;
+        margin: 0;
+        margin-right: 10px;
+    }
+
+    .footer-text2:hover{
+        font-size: 12px;
+    }
+
+    .levels-text{
+        text-align: center;
+        margin: 15px;
+    }
+
+
+    #section-14>.container>img {
+        width: 85%;
+    }
+
+    #section-15>.container>img {
+        width: 85%;
+    }
+
+    #section-16>.container>img {
+        width: 85%;
+    }
+
+    #section-17>.container>img {
+        width: 85%;
+    }
+
+    #section-18>.container>img {
+        width: 85%;
+    }
+
+
+
+
+    .end-title {
+        font-size: 22px;
+    }
+
+    #section-19 {
+        height: 120px;
+    }
+
+
+
+
+
+
+    /* دستورپخت 2 */
+
+    #section-21>.container>img {
+        width: 85%;
+    }
+
+    #section-22>.container>img {
+        width: 85%;
+    }
+
+    #section-23>.container>img {
+        width: 85%;
+    }
+
+    #section-24>.container>img {
+        width: 85%;
+    }
+
+
+
+
+    /* دستور پخت 3 */
+
+    #section-26>.container>img {
+        width: 85%;
+    }
+
+    #section-27>.container>img {
+        width: 85%;
+    }
+
+    #section-28>.container>img {
+        width: 85%;
+    }
+
+
+
+
+    /* دستور پخت 4 */
+
+    #section-30>.container>img {
+        width: 85%;
+    }
+
+    #section-31>.container>img {
+        width: 85%;
+    }
+
+    #section-32>.container>img {
+        width: 85%;
+    }
+
+    #section-33>.container>img {
+        width: 85%;
+    }
+
+    #section-34>.container>img {
+        width: 85%;
+    }
+
+
+
+
+
+
+    /* دستور پخت 5 */
+
+
+    #section-36>.container>img {
+        width: 85%;
+    }
+
+    #section-37>.container>img {
+        width: 85%;
+    }
+
+    #section-38>.container>img {
+        width: 85%;
+    }
+
+    #section-39>.container>img {
+        width: 85%;
+    }
+
+    #section-40>.container>img {
+        width: 85%;
+    }
+
+
+
+    /* دستورپخت 6 */
+
+    #section-42>.container>img {
+        width: 85%;
+    }
+
+    #section-43>.container>img {
+        width: 85%;
+    }
+
+    #section-44>.container>img {
+        width: 85%;
+    }
+
+    #section-45>.container>img {
+        width: 85%;
+    }
+
+    #section-46>.container>img {
+        width: 85%;
+    }
+
+
+
+    /* دستورپخت 7 */
+
+    #section-48>.container>img {
+        width: 85%;
+    }
+
+    #section-49>.container>img {
+        width: 85%;
+    }
+
+    #section-50>.container>img {
+        width: 85%;
+    }
+
+
+
+}

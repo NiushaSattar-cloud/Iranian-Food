@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Example</title>
+
+
+    <style>
+        /* styles.css */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .image-container {
+            position: relative;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            position: absolute;
+            opacity: 0;
+            /* به طور پیش فرض تصویر نامرئی است */
+        }
+
+        .animate {
+            animation: spinIn 2s forwards;
+            /* انیمیشن را به تصاویر اضافه کنید */
+        }
+
+        @keyframes spinIn {
+            0% {
+                transform: rotate(0deg) translateX(-100%);
+                /* شروع از چپ صفحه */
+                opacity: 0;
+                /* نامرئی */
+            }
+
+            100% {
+                transform: rotate(360deg) translateX(0);
+                /* بچرخ در مرکز */
+                opacity: 1;
+                /* نمایان شود */
+            }
+        }
+
+        #image-container>img:nth-of-type(2){
+            position: absolute;
+            left: 0;
+        }
+    </style>
+
+
+</head>
+
+
+
+<body>
+    <div class="image-container">
+        <img src="morgh.png" alt="Image 1" class="animate">
+        <img src="spoon&fork.png" alt="Image 2" class="animate">
+        <img src="yugert.png" alt="Image 3" class="animate">
+    </div>
+
+
+    <script>
+        // script.js
+        window.onload = function () {
+            const images = document.querySelectorAll('.animate');
+            images.forEach((img, index) => {
+                setTimeout(() => {
+                    img.classList.add('animate');
+                }, index * 500); // برای هر تصویر یک تأخیر متفاوت ایجاد می‌کند
+            });
+        };
+    </script>
+
+
+
+</body>
+
+</html>
